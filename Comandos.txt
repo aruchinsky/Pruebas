@@ -1,0 +1,24 @@
+COMANDOS MAS USADOS EN GIT--------------------
+----------------------------------------------
+-- SIEMPRE SE ESCRIBE LOS COMANDOS EN MINUSCULAS
+
+> git --version : Es para corroborar que version tenemos instalado de GIT y si ESTA instalado.
+
+> git status : Devuelve un informe de estado sobre los archivos que se han confirmado para subir y los que no han sido subidos en linea.
+
+> git log : En un principio sirve para corroborar si el usuario se logeo dentro de la consola.
+---------------------------------------------------------------------------
+
+
+> git init : Inicia el repositorio (ESTO DEBE SER DENTRO DE LA CARPETA QUE CONTENDRA EL PORYECTO A SUBIR)
+
+> git add "." se utiliza el PUNTO para subir toda la carpeta, "nombre de archivo" esto para subir solamente un archivo en especifico. 
+
+> git commit -m "Colocar el comentario aqui" : Esto confirma la seleccion de archivos para subir a la nube, junto con un comentario que debe explicar los cambios realizados.
+
+
+-------------COMANDOS PARA INICIAR SESION--------------------------------
+> git config --global user.email "you@example.com" : Inicia sesion con correo electronico (DEBE SER EL USADO EN GITHUB)
+
+> git config --global user.name "Your Name" : Inicia sesion con nombre de usuario (DEBE SER EL USADO EN GITHUB)
+-------------------------------------------------------------------------
